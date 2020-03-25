@@ -15,10 +15,9 @@ public class Main
     word = word.substring(length-input2, length).concat(word.substring(0, length-input2));
       count ++;
     if(originalWord.compareTo(word) == 0) {
-    return count;
+    return count:
     }
     }
-    
     return 0;
     
   }
